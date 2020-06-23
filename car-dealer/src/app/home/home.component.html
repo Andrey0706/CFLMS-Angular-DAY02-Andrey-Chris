@@ -1,1 +1,63 @@
-<p>homepage!</p>
+<div>
+	Administration: Add Car
+	<form [formGroup]="info" (ngSubmit)="onSubmit()">
+		<label>
+			Brand:
+			<input type="text" formControlName="brand" />
+		</label>
+
+		<label>
+			Model:
+			<input type="text" formControlName="model" />
+		</label>
+
+		<label>
+			Fuel:
+			<select formControlName="fuel">
+				<option value="diesel">Diesel</option>
+				<option value="benzin">Benzin</option>
+				<option value="electric">Electric</option>
+			</select>
+			<!-- <input type="text" formControlName="fuel" /> -->
+		</label>
+
+		<label>
+			HP:
+			<input type="number" formControlName="hp" />
+		</label>
+		<label>
+			Price:
+			<input type="number" formControlName="price" />
+		</label>
+
+		<label>
+			Image:
+			<select formControlName="image">
+				<option value="car1.webp">Car 1</option>
+				<option value="car2.webp">Car 2</option>
+				<option value="car3.jpg">Car 3</option>
+			</select>
+		</label>
+
+		<input type="submit" class="btn btn-primary" value="Submit" />
+	</form>
+</div>
+
+<div class="row row-cols-4">
+	<div *ngFor="let car of car_array" class="card" style="width: 18rem;">
+		<div class="img_container">
+			<img class="card-img-top" src="../../assets/img/{{ car.image }} " alt="Image of {{ car.model }}" />
+		</div>
+		<div class="card-body">
+			<h5 class="card-title">{{ car.brand }} {{ car.model }}</h5>
+		</div>
+		<ul class="list-group list-group-flush">
+			<li class="list-group-item">{{ car.fuel }}</li>
+			<li class="list-group-item">{{ car.hp }} HP</li>
+			<li class="list-group-item bg-success">Price: {{ car.price }} €</li>
+		</ul>
+	</div>
+</div>
+<!-- <div *ngFor='let car of car_array'>
+	<p>{{ car. }}
+</div>  -->

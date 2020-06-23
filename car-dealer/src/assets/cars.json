@@ -1,0 +1,94 @@
+({
+	"brand": "Audi",
+	"model": "S8",
+	"engine": "diesel",
+	"hp": "231",
+	"price": "232231",
+	"image": ""
+},
+{
+	"brand": "VW",
+	"model": "Golf",
+	"engine": "gas",
+	"hp": "431",
+	"price": "23223",
+	"image": ""
+},
+{
+	"brand": "Zastawa",
+	"model": "Yugo",
+	"engine": "diesel",
+	"hp": "731",
+	"price": "522231",
+	"image": ""
+},
+{
+	"brand": "BMW",
+	"model": "M1",
+	"engine": "electric",
+	"hp": "531",
+	"price": "432231",
+	"image": ""
+},
+{
+	"brand": "VW",
+	"model": "Passat",
+	"engine": "diesel",
+	"hp": "111",
+	"price": "54231",
+	"image": ""
+},
+{
+	"brand": "Tesla",
+	"model": "Model 3",
+	"engine": "electric",
+	"hp": "331",
+	"price": "213452",
+	"image": ""
+},{
+	"brand": "Audi",
+	"model": "S5",
+	"engine": "diesel",
+	"hp": "235",
+	"price": "23231",
+	"image": ""
+},
+{
+	"brand": "VW",
+	"model": "Golf 3",
+	"engine": "gas",
+	"hp": "231",
+	"price": "123223"
+},
+{
+	"brand": "Zastawa",
+	"model": "101",
+	"engine": "diesel",
+	"hp": "1050",
+	"price": "22231",
+	"image": ""
+},
+{
+	"brand": "BMW",
+	"model": "X6",
+	"engine": "electric",
+	"hp": "431",
+	"price": "732231",
+	"image": ""
+},
+{
+	"brand": "VW",
+	"model": "Scirocco",
+	"engine": "diesel",
+	"hp": "211",
+	"price": "254231",
+	"image": ""
+},
+{
+	"brand": "Tesla",
+	"model": "Model 5",
+	"engine": "electric",
+	"hp": "333",
+	"price": "213453",
+	"image": ""
+})
